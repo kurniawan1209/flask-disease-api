@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disease Prediction APP</title>
+</head>
+<body>
+	<h2>Daftar Penyakit</h2>
+	<table>
+		<thead>
+			<tr>
+				<td>No</td>
+				<td>Nama</td>
+			</tr>
+		</thead>
+		<tbody>
+			{% for disease in diseases %}
+			<tr>
+				<td>1</td>
+				<td>{{ disesase.name }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>
